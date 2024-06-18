@@ -1,13 +1,3 @@
-my_name = "Ayush Arya"
-print("Hello and welcome "+ my_name + " !")
-#this is a comment
-"""
-this is also a comment
-this way you can write multi line comments
-print("see nothing got printed")
-"""
-print("this \nis printed in next \"line\" with quotes and a \\ backlash")
-
 january_to_june_rainfall = 1.93 + 0.71 + 3.53 + 3.41 + 3.69 + 4.50
 annual_rainfall = january_to_june_rainfall
 
@@ -23,5 +13,3 @@ november_rainfall = 5.06
 december_rainfall = 4.06
 
 annual_rainfall+= september_rainfall + october_rainfall + november_rainfall + december_rainfall
-# this works fine
-
