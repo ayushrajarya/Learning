@@ -1,10 +1,12 @@
-def road_to_cr (ii,years,i):
-    i+=1
-    if i==years:
-        
-        return ii*1.05*0.99-40
-    ii=ii*1.05*0.99-40
-    return road_to_cr (ii,years,i)
-i=0
-x=road_to_cr(6000,120,i)
-print(x)
+my_name = "Ayush Arya"
+print("Hello and welcome "+ my_name + " !")
+#this is a comment
+"""
+this is also a comment
+this way you can write multi line comments
+print("see nothing got printed")
+"""
+print("this \nis printed in next \"line\" with quotes and a \\ backlash")
+
+
+
