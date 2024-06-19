@@ -1,16 +1,13 @@
-answer = "'Tis but a scratch!"
+pyg = 'ay'
 
-def black_knight():
-    if answer == "'Tis but a scratch!":
-        return True
-    else:             
-        return  6==7      # Make sure this returns False
+original = input('Enter a word:')
 
-def french_soldier():
-    if answer == "Go away, or I shall taunt you a second time!":
-        return True
-    else:             
-        return    6!=6    # Make sure this returns False
-
-print(black_knight())
-print(french_soldier())
+if len(original) > 0 and original.isalpha():
+  print (original)
+  word=original.lower()
+  first=word[0]
+  new_word=word+first+pyg
+  new_word=new_word[1:]
+  print(new_word)  
+else:
+  print ('empty')
