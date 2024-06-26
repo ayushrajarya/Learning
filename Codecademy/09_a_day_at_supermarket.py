@@ -27,17 +27,18 @@ def fizz_count(x):
             count+=1
     return count
 
-#6
-prices={}
-# a dictionary has to initialized before assigning any value
-prices["banana"]=4
-prices["apple"]=2
-prices["orange"]=1.5
-prices["pear"]=3
-
 #9
 prices={}
 # a dictionary has to initialized before assigning any value
+""" Below will work though as kay and value pair is given while initialising
+prices={"banana":4, "apple":2, "orange": 1}
+print(prices)
+
+Below will not work without initialising en empty ditionary
+prices["banana"]=4
+prices["apple"]=2
+print(prices)
+"""
 prices["banana"]=4
 prices["apple"]=2
 prices["orange"]=1.5
@@ -66,35 +67,15 @@ If any change is done in a funtion to that variable then the main variable will 
 """
 def compute_bill(food):
     total=0
-    
     for f in food:
         if stock[f]>0:
             total+= prices[f]
             stock[f]-=1
     return total
-prices = {"banana": 4,  "apple": 2,  "orange": 1.5,  
-"pear": 3
-}
-stock = {
-"banana": 6,
-"apple": 0,
-"orange": 32,
-"pear": 15
-}
+prices = {"banana": 4,  "apple": 2,  "orange": 1.5,"pear": 3}
+stock = {"banana": 6,"apple": 0,"orange": 32,"pear": 15}
 print(stock)
 t=compute_bill(["banana","apple","orange", "pear"])
 print(t)
 print(stock)
 shopping_list = ["banana", "orange", "apple"]
-
-
-
-
-
-
-
-
-
-
-
-

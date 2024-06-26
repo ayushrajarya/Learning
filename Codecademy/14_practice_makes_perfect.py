@@ -19,7 +19,7 @@ def is_int(x):
 print(is_int(2.3))
 """
 In return statement elif won't work and for a better code readability thou shall not write too much in one line
-But iit an still be done as shown above.
+But it can still be done as shown above.
 First check one if condition
 then in else within parenthesis write another if condition
 In this way if can be nested infinite times in the else of the preceeding condition  

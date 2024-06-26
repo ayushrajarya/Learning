@@ -40,7 +40,8 @@ print(type(marks))
 # similarlly, int, str, float
 fl='-3.5'
 fl=float(fl)
-# this will throw error "ValueError: invalid literal for int()"
+# this will throw error "ValueError: invalid literal for int()" as string is not an integer
+# fl='-2.6'
 # fl= int(fl)
 print(fl)
 print(type(fl))

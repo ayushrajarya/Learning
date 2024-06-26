@@ -94,13 +94,3 @@ def distance_from_zero(x):
     else:
         return "Nope"
 print(distance_from_zero('20.4'))
-
-
-
-
-
-
-
-
-
-

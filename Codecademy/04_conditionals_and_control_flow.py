@@ -173,21 +173,3 @@ print (grade_converter(70))
 
 # This should print an "F"
 print (grade_converter(61))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

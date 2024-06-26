@@ -8,7 +8,7 @@ if len(zoo_animals) > 3:
   print ("The third animal at the zoo is the " + zoo_animals[2])
   print ("The fourth animal at the zoo is the " + zoo_animals[3])
 
-  #2
+#2
 numbers = [5, 6, 7, 8]
 
 print ("Adding the numbers at indices 0 and 2...")

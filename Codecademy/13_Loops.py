@@ -9,7 +9,6 @@ Else part won't be executed only when the loop is broken because of a "break sta
 """
 
 from random import randint
-
 # Generates a number from 1 through 10 inclusive
 random_number = randint(1, 10)
 
@@ -58,7 +57,6 @@ for index, item in enumerate(choices):
 """
 Enumerate gives index and item pair that is index of the corresponding element which was picked.
 This way evey if there are multiple duplicates it will give the exact index of the item which is picked in that iteration.
-
 """
 
 #16

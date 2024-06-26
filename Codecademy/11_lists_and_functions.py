@@ -15,7 +15,7 @@ list = [1, 2, 3, 4, 5]
 #print(last_element)
 # Remove the first occurrence of the element 3 from the list
 #x=list.remove(3)
-#print(x)
+#print(x) this will not print anything
 
 # Delete the element at index 2 from the list
 del (list[2])
