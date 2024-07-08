@@ -305,7 +305,6 @@ if the integer is positive then it takes elements from left to right.
 if the stride is negative then it starts from right and goes to left.
 """
 
-#9
 my_list = range(1, 11) 
 # this won't make it a list this will just show as a range
 # above would still work with a for loop but it ould be stored as a range function only
@@ -315,3 +314,25 @@ backwards= my_list[::-1]
 print(backwards)
 for x in my_list:
     print(x)
+
+"""
+lambda is a small anonymous function.
+It can take any number of arguments, but can only have one expression.
+"""
+my_list = list(range(16))
+test=lambda x: x%3==0
+print(test(5)) # this will compare and written a boolean
+test=lambda x: x%3
+print(test(5)) # this shows remainder
+# print(lambda x: x%3==0, [0,1,2,3,4,5,6,7,8,9,10])
+test= list(filter(lambda x: x%3 == 0, my_list))
+# test= filter(lambda x: x%3 == 0, my_list) this will somehow not store it as list
+# we have to specify to convert to list as shown above
+print(test) # this filters and shows elements which have 0 remainder
+
+languages = ["HTML", "JavaScript", "Python", "Ruby"]
+print( list(filter(lambda x : x== "Python", languages)))
+"""
+It is imperative that we give a lambda function in filter to filter out.
+A defined functin can also be used to filter out the result.
+"""
