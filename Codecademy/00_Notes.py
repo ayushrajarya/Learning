@@ -336,3 +336,11 @@ print( list(filter(lambda x : x== "Python", languages)))
 It is imperative that we give a lambda function in filter to filter out.
 A defined functin can also be used to filter out the result.
 """
+
+#17_introdution_to_bitwise_operators.py
+print (5 >> 4 ) # Right Shift
+print (5 << 1 ) # Left Shift
+print (8 & 5   )# Bitwise AND
+print (9 | 4   )# Bitwise OR
+print (12 ^ 42) # Bitwise XOR
+print (~88)     # Bitwise NOT
