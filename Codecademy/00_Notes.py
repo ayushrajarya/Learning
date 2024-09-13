@@ -18,7 +18,7 @@ print(type(marks))
 # similarlly, int, str, float
 fl='-3.5'
 fl=float(fl)
-# this will throw error "ValueError: invalid literal for int()" as string is not an integer
+# this below will throw an error "ValueError: invalid literal for int()" as string is not an integer
 # fl='-2.6'
 # fl= int(fl)
 print(fl)
@@ -26,6 +26,7 @@ print(type(fl))
 
 fl=int(fl)
 #this works as this converts float to int removing decimal part
+#note fl is float till this execution
 print(fl)
 print(type(fl))
 
@@ -48,7 +49,8 @@ string_2 = 2256
 print ("Let's not go to %s. 'Tis a silly %02d." % (string_1, string_2))
 print ("Let's not go to %s. 'Tis a silly %015d." % (string_1, string_2))
 print ("Let's not go to %s. 'Tis a silly d%6d." % (string_1, string_2)) 
-# 4 places are skipped rest are printed as space
+# 4 places are skipped rest are printed as space as string_2 is 4 digits
+# if there are n digits then n places are skipped and remaining padding is given.
 """
 padding in integer can be done with % formatting like above.
 Only 0 can be added for padding, next write how many characters are needed.
