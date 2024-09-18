@@ -75,6 +75,8 @@ bool_five = 3-2
 print(bool_five)
 """
 Writing an expression and giving it a value might not work (not sure about this though)
+Assigning value might work but test before working it does work sometimes
+If value is 0 it is False otherwise it is True
 """
 """
 Boolean operators are not just evaluated from left to right. There is an order of operations for boolean operators.
@@ -100,7 +102,7 @@ Otherwise we would have to write math.sqrt(25) just now to achieve the same thin
 """
 This may look good but when there are many modules in a program then tracking each function and variable name is a hassle
 The conflict may arrise if two functions or variables have same name and one of them is being imported from a module
-This may result in unexpecte result from the script.
+This may result in unexpected result from the script.
 So, it is beter to import the module and then call with module.
 Over that it fills your program with a ton of variable and functions.
 """
@@ -113,13 +115,19 @@ print(dir(module))
 maximum = max(02024,12,6,6,45,6,65,6,5,66,6,5)
 print (maximum)
 This throws an error saying leading zeros not allowed look into this more
+This happens as machine tries to identify if it is binary or hexadecimal or octal
+Octal: base 8: 0o**** (letter 'o' after zero)
+binary: base 2: 0b**** (letter 'b' after zero)
+Hexadecimal: base 16: ox**** (letter 'x' after zero) 
 """
 
 #09_a_day_at_supermarket.py
-# a dictionary has to initialized before assigning any value
-""" Below will work though as kay and value pair is given while initialising
+# a dictionary has to be initialized before assigning any value
+""" Below will work though as key and value pair is given while initialising
 prices={"banana":4, "apple":2, "orange": 1}
 print(prices)
+Initialising is feeding an empty dictionary into the variable
+like <prices = {} >
 
 Below will not work without initialising en empty ditionary
 prices["banana"]=4
@@ -129,7 +137,7 @@ print(prices)
 
 """
 A variable initalised in the main code and called in the function will work just fine.
-If any change is done in a funtion to that variable then the main variable will be chnaged.
+If any change is done in a funtion to that variable then the main variable will be changed.
 """
 def compute_bill(food):
     total=0
