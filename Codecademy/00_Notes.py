@@ -197,11 +197,11 @@ start defaults to 0 and step defaults to 1 unless specified.
 """
 Iterating through a list
 method 1: iterating through items in list: List modification is not possible
-method 2: ierating through the indexes: list can be modified while using indexes
+method 2: iterating through the indexes: list can be modified while using indexes
 """
 
 """
-Joining two lists as simple as adding them.
+Joining two lists is as simple as adding them.
 Second list will be appended at the end of the first list in the same order
 """
 
@@ -209,9 +209,9 @@ Second list will be appended at the end of the first list in the same order
 """
 While/else
 while/else is similar to if/else.
-Else part is executed once the conition in while is evaluated as 'False'.
+Else part is executed once the condition in while is evaluated as 'False'.
 While loop is entered and False condition is evaluated then Else part will be executed.
-While entering the while loop the condition if eveluated to be false in the first iteration then also Else part will be executed.
+While entering the while loop the condition if evaluated to be false in the first iteration then also Else part will be executed.
 Else part won't be executed only when the loop is broken because of a "break statement"
 """
 
@@ -255,7 +255,7 @@ else condition is ony executed when for ends normally and through a break statem
 
 #14_practie_make_perfect.py
 """
-if else in return example above 
+if else in return example above
 return something if condition1 else something_else
 """
 
@@ -268,7 +268,7 @@ In return statement elif won't work and for a better code readability thou shall
 But it can still be done as shown above.
 First check one if condition
 then in else within parenthesis write another if condition
-In this way if can be nested infinite times in the else of the preceeding condition  
+In this way if can be nested infinite times in the else of the preceeding condition
 """
 
 def median(numbers):
