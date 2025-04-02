@@ -83,8 +83,10 @@ movies.append("Harry Potter")
 print(movies)
 print(movies+["Contratiempo"]) #this also worked
 
+"""
 nums=list(input('Input numbers: ')) #this will take individual letter, digit and make it one element as string.
 print(nums)
+"""
 nums = list(map(int, input('Input numbers separated by spaces: ').split()))
 print(nums)
 
@@ -103,3 +105,11 @@ for i in range(1, 1+len(nums)):
     reversed_nums.append(nums[-i])
 
 print(reversed_nums)
+print(nums[::-1])
+
+reversed_nums_slicing = nums[::-4]
+#this will take last and then every second element can be done with any 'i' number
+print(reversed_nums_slicing)
+
+rev=list(reversed(nums))
+print(rev)
